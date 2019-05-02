@@ -9,8 +9,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.1.4.RELEASE</spring.version>
-        <jackson.version>2.5.0</jackson.version>
+        <spring.version>5.1.5.RELEASE</spring.version>
+        <jackson.version>2.9.8</jackson.version>
+        <fastjson.version>1.2.55</fastjson.version>
+        <common.fileupload.version>1.3.3</common.fileupload.version>
     </properties>
 
     <dependencies>
@@ -125,7 +127,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.3</version>
+            <version>${fastjson.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -173,7 +175,7 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.3.1</version>
+            <version>${common.fileupload.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
